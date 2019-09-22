@@ -17,8 +17,8 @@ url = "https://api.twitter.com/1.1/statuses/user_timeline.json"
 
 # Enedpointへ渡すパラメーター
 params ={
-         'count'       : 10,             # 取得するtweet数
-         'screen_name' : 'Nintendo',  # twitterアカウント名
+         'count'       : 5,             # 取得するtweet数
+         'screen_name' : 'gigazine',  # twitterアカウント名
         }
 
 req = twitter.get(url, params = params)
